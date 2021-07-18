@@ -1,7 +1,57 @@
+*{
+	margin : 0;
+	padding : 0;
+}
 .App {
   font-family: sans-serif;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  margin :0;
+  padding: 0;
+  height: 30rem;
+  background-color : green;
+}
+
+.rec.rec-arrow {
+    display : none;
+}
+
+.rec-carousel-item{
+	
+	
+}
+@keyframes pulse {
+  from {transform : scale(1)}
+  to {transform : scale(1.5)}
+}
+.carousal-img{
+	width : 100%;
+	height: 80%;
+	overflow : hidden;
+	resize: both;
+	
+	object-fit : cover;
+  animation-name: pulse;
+  animation-duration: 40s;
+}
+.title{
+	position: absolute;
+	left : 50%;
+	top : 30%;
+	transform : translate(-50%,-50%);
+	color : white;
+	font-weight: bolder;
+	font-size : 3rem;
+	text-align : center;
+	
+	
+}
+.hvJMgY {
+	display : none;
+}
+
+.rec-pagination{
+	display : none;
+}
+.xzcEF{
+	display : none !important;
 }

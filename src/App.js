@@ -3,7 +3,7 @@ import './App.css';
 import Carou from './Carousel'
 function App() {
   return (
-    <div >
+    <div style={{backgroundColor : "Red"}}>
         <Carou/>
     </div>
   );
